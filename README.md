@@ -10,15 +10,15 @@
 
 For this exercise, we experimented with two different Deep Learning tasks:
 
-* Object Detection
+* Object Detection 
 * Generative Adversarial Networks (GAN)
 
 ## File Organization
 
-| File/Directory         | Description                  |
-|------------------------|------------------------------|
-| `src/object_detection` | Object detection experiments |
- | `src/GAN`              | GAN experiments              |
+| File/Directory         | Description                                                                                                                              |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| `src/object_detection` | Object detection experiments (incl. the best model of each experiment in `src/object_detection/runs/train/<experiment>/weights/best.pt`) |
+ | `src/GAN`              | GAN experiments                                                                                                                          |
 
 ## System Requirements
 
