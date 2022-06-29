@@ -15,10 +15,12 @@ For this exercise, we experimented with two different Deep Learning tasks:
 
 ## File Organization
 
-| File/Directory         | Description                                                                                                                              |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| `src/object_detection` | Object detection experiments (incl. the best model of each experiment in `src/object_detection/runs/train/<experiment>/weights/best.pt`) |
- | `src/GAN`              | GAN experiments                                                                                                                          |
+| File/Directory                                                                                             | Description                                                                                                                                                                     |
+|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `src/object_detection`                                                                                     | Object detection experiments                                                                                                                                                    |
+| `src/object_detection/runs`                                                                                | Results (incl. also results that can be explored with `TensorBoard`) |
+| `src/object_detection/runs/train/<experiment>/weights/best.pt` | Model of the best epoch of each experiment |
+ | `src/GAN`                                                                                                  | GAN experiments                                                                                                                                                                 |
 
 ## System Requirements
 
@@ -40,7 +42,7 @@ pip3 install notebook
 pip3 install jupyterlab
 ```
 
-All other dependencies are installed "on-the-fly" in the notebooks.
+All other dependencies are installed 'on-the-fly' in the notebooks.
 
 Further notes:
 * The notebooks in `src/GAN` have been executed on Google Colab.
