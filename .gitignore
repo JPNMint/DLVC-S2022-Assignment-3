@@ -339,3 +339,6 @@ $RECYCLE.BIN/
 venv
 src/object_detection/yolov5/
 last.pt
+yolov5n.pt
+yolov5s.pt
+src/object_detection/datasets/**/*
