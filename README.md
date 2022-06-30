@@ -3,6 +3,7 @@
 ## 183.663 Deep Learning for Visual Computing (2022S)
 
 **Group 9**
+
 * Yu Kinoshita (01623806)
 * Michael Köpf (01451815)
 
@@ -15,12 +16,12 @@ For this exercise, we experimented with two different Deep Learning tasks:
 
 ## File Organization
 
-| File/Directory                                                                                             | Description                                                                                                                                                                     |
-|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `src/object_detection`                                                                                     | Object detection experiments                                                                                                                                                    |
-| `src/object_detection/runs`                                                                                | Results (incl. also results that can be explored with `TensorBoard`) |
-| `src/object_detection/runs/train/<experiment>/weights/best.pt` | Model of the best epoch of each experiment |
- | `src/GAN`                                                                                                  | GAN experiments                                                                                                                                                                 |
+| File/Directory                                                                                             | Description                                                            |
+|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| `src/object_detection`                                                                                     | Object detection experiments                                           |
+| `src/object_detection/runs`                                                                                | Results of the object detection experiments (incl. `TensorBoard` logs) |
+| `src/object_detection/runs/train/<experiment>/weights/best.pt` | Model of the best epoch of each object detection experiment            |
+ | `src/GAN`                                                                                                  | GAN experiments                                                        |
 
 ## System Requirements
 
