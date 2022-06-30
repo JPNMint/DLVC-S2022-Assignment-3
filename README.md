@@ -14,6 +14,8 @@ For this exercise, we experimented with two different Deep Learning tasks:
 * Object Detection 
 * Generative Adversarial Networks (GAN)
 
+We decided on using Jupyter notebooks instead of plain Python scripts, since in our opinion they are better suited when experimenting with existing Deep Learning projects from the internet.
+
 ## File Organization
 
 | File/Directory                                                                                             | Description                                                            |
